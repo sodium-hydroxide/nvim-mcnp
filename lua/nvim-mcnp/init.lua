@@ -75,6 +75,7 @@ local function setup_filetype_detection()
             "*.o",      -- Output files
             "*.m",      -- MCTAL files
             "*.r",      -- RUNTPE files
+            "*.in",
         },
         callback = function(args)
             -- Set filetype to mcnp
